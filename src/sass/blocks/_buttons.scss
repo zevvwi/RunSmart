@@ -16,3 +16,12 @@
         font-size: 16px;
     }
 }
+@media (max-width: 320px) {
+    .button_main {
+        width: 270px;
+    }
+    .button {
+        width: 126px;
+        font-size: 11px;
+    }
+}

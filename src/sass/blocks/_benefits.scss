@@ -42,3 +42,16 @@
         }
     }
 }
+
+@media (max-width: 425px) {
+    .benefits__cards {
+        flex-direction: column;
+        align-items: center;
+    }
+    .benefits__card {
+        margin-bottom: 40px;
+    }
+    .benefits__header {
+        font-size: 27px;
+    }
+}

@@ -54,3 +54,68 @@
         }
     }
 }
+
+@media (max-width: 768px) {
+    .promo__wrapper {
+        align-items: center;
+    }
+    .promo__header {
+        font-size: 36px;
+    }
+    .promo__subheader {
+        font-size: 20px;
+        margin-top: 10px;
+    }
+    .promo__icons {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .promo {
+        min-height: 600px;
+    }
+    .promo__header {
+        font-size: 30px;
+        text-align: center;
+    }
+    .promo__subheader {
+        font-size: 17px;
+        margin-top: 0px;
+    }
+    .promo__icons {
+        justify-content: space-around;
+    }
+}
+@media (max-width: 375px) {
+    .promo__icons {
+        width: 365px;
+    }
+    .promo__header {
+        font-size: 26px;
+    }
+    .promo__subheader {
+        font-size: 14px;
+    }
+}
+@media (max-width: 320px) {
+    .promo__icons {
+        flex-direction: column;
+        align-items: center;
+    }
+    .promo__icon {
+        margin-bottom: 30px;
+    }
+    .button_main {
+        margin-top: 30px;
+    }
+    .promo__header {
+        font-size: 22px;
+    }
+    .promo__subheader {
+        font-size: 12px;
+    }
+    .button_main {
+        width: 270px;
+    }
+}
+

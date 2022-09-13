@@ -55,6 +55,18 @@
 }
 @media (max-width: 320px) {
     .header__phone {
-        font-size: 14px;
+        font-size: 13px;
     }
+    .header {
+        .button {
+            width: 125px;
+        }
+    }
+    .promo__wrapper {
+        .button_main {
+            width: 70%;
+            font-size: 14px;
+        }
+    }
+
 }

@@ -15,6 +15,11 @@
         height: 50px;
         font-size: 16px;
     }
+    &_submit {
+        width: 100%;
+        font-size: 16px;
+        height: 55px;
+    }
 }
 @media (max-width: 320px) {
     .button_main {

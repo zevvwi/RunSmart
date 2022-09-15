@@ -42,7 +42,7 @@
         flex-wrap: wrap;
         &_active {
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
     }
     &-item {
@@ -160,5 +160,15 @@
                 color: $main-color;
             }
         }
+    }
+}
+
+@media (max-width: 700px) {
+    .catalog__tabs {
+        flex-direction: column;
+        margin-top: 35px;
+    }
+    .catalog__tab {
+        margin: 10px 0;
     }
 }

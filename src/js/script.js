@@ -45,4 +45,46 @@ $(document).ready(function(){
         $('.overlay, #order').fadeIn();
       })
     });
+
+
+    function validateForm(form) {
+      $(form).validate({
+        rules: {
+          name: {
+            required: true,
+            minlength: 2
+          },
+          phone: {
+            required: true,
+            minlength: 11
+          },
+          email: {
+            required: true,
+            email: true,
+            minlength: 3
+          }
+        },
+        messages: {
+          name: {
+            required: "Введите свое имя",
+            minlength: jQuery.validator.format("Минимальное кол-во символов: {0}")
+          },
+          phone: {
+            required: "Введите номер телефона",
+            minlength: jQuery.validator.format("Минимальное кол-во символов: {0}")
+          },
+          email: {
+            required: "Введите свой Email адрес",
+            email: "Введите корректный Email адрес",
+            minlength: jQuery.validator.format("Минимальное кол-во символов: {0}")
+          }
+        }
+      });
+    }
+
+    validateForm('#consultation-form');
+    validateForm('#consultation form');
+    validateForm('#order form');
+
+    $('input[name=phone]').mask("+7(999) 999-99-99");
 });

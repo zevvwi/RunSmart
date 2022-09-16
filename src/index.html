@@ -8,10 +8,11 @@
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="css/slick.css"/>
+    <link rel="stylesheet" href="css/animate.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-    <div class="promo">
+    <div class="promo" id="up">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
@@ -66,19 +67,19 @@
                 <div class="benefits__card">
                     <img src="icons/logos/cup.png" alt="cup">
                     Делимся опытом
-                    <span>Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</span>
+                    <p>Наши сотрудники всегда готовы поделиться своим опытом, так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!</p>
                 </div>
     
                 <div class="benefits__card">
-                    <img src="icons/logos/heart.png" alt="heart">
+                    <img src="icons/logos/heart.png" alt="heart" class="benefits__img benefits__img_animated">
                     Заботимся о здоровье
-                    <span>Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</span>
+                    <p>Мы работаем для того, чтобы Ваши занятия спортом шли на пользу Вашему здоровью и были в радость Вам и Вашим близким!</p>
                 </div>
     
                 <div class="benefits__card">
                     <img src="icons/logos/shoe.png" alt="shoe">
                     Учим бегать
-                    <span>Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <p class="benefits__card_red">I LOVE RUNNING.</p></span>
+                    <p>Помогаем с обучением правильной технике бега! Дружим с крупнейшей школой бега в России - <span class="benefits__card_red">I LOVE RUNNING.</span></p>
                 </div>
             </div>
         </div>
@@ -107,7 +108,7 @@
     </section>
 
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div>
@@ -121,7 +122,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
 
     <section class="catalog">
         <div class="container">
@@ -412,7 +413,7 @@
         <div class="container">
             <h2 class="title">отзывы клиентов</h2>
             <div class="client-reviews">
-                <div class="client-reviews__review">
+                <div class="client-reviews__review animate__fadeInUp wow" data-wow-duration="2s">
                     <img src="img/reviews/review-img-1.png" alt="Photo" class="client-reviews__img">
                     <div class="client-reviews__about">
                         <p class="client-reviews__name">Ирина Иванченко </p>
@@ -421,7 +422,7 @@
                         Спасибо, RunSmart! </div>
                     </div>
                 </div>
-                <div class="client-reviews__review">
+                <div class="client-reviews__review animate__fadeInUp wow" data-wow-duration="2s">
                     <img src="img/reviews/review-img-2.png" alt="Photo" class="client-reviews__img">
                     <div class="client-reviews__about">
                         <p class="client-reviews__name">Иван Сёмочкин</p>
@@ -429,7 +430,7 @@
                         <p class="client-reviews__text-review">Крутая штука-пульсометр. Обычно без них бегал. Оказывается только хуже себе делал.<br>Купил пульсометр, ещё в подарок получил тренировку. Со мной вместе провели первую тренировку, научили пользоваться новым гаджетом. Также объяснили основы анатомии, составили план тренировок на месяц вперёд.<br><br>С ними подготовился к своему первому полумарафону! Спасибо!!!</p>
                     </div>
                 </div>
-                <div class="client-reviews__review">
+                <div class="client-reviews__review animate__fadeInUp wow" data-wow-duration="2s">
                     <img src="img/reviews/review-img-3.png" alt="Photo" class="client-reviews__img">
                     <div class="client-reviews__about">
                         <p class="client-reviews__name">Юлия Дашкина</p>
@@ -442,7 +443,7 @@
     </section>
 
     <footer class="footer">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198.38190664697066!2d37.64705216096965!3d55.76831539256907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1663258412010!5m2!1sru!2sru" width="100%" height="630" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d198.38190664697066!2d37.64705216096965!3d55.76831539256907!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54a636edcd2ad%3A0x4c2ca101e2c8c617!2z0JzRj9GB0L3QuNGG0LrQuNC5INC_0YAt0LQsIDQvMywg0JzQvtGB0LrQstCwLCAxMDcwNzg!5e0!3m2!1sru!2sru!4v1663258412010!5m2!1sru!2sru" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
         <div class="footer__info">
             <address class="footer__address">Москва, Мясницкий проезд, д.3с1</address>
@@ -489,11 +490,16 @@
         </div>
     </div>
 
+    <a href="#up" class="pageup">
+        <img src="icons/logos/pageup.svg" alt="Pageup">
+    </a>
+
     <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
     <script src="js/slick.min.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

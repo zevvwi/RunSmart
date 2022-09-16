@@ -23,7 +23,7 @@
                 height: 70px;
                 margin-bottom: 35px;
             }
-            span {
+            p {
                 font-weight: 500;
                 font-size: 14px;
                 line-height: 18px;
@@ -34,6 +34,19 @@
             &_red {
                 text-decoration-line: underline;
                 color: $main-color;
+            }
+        }
+    }
+    &__img {
+        &_animated {
+            animation: heardbeat 1.5s linear infinite paused;
+            // animation-name: heardbeat;
+            // animation-duration: 1.5s;
+            // animation-timing-function: ease;
+            // animation-iteration-count: infinite;
+            // animation-play-state: paused;
+            &:hover {
+                animation-play-state: running;
             }
         }
     }
